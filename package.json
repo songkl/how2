@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "blessed": "^0.1.81",
+    "cheerio": "^1.0.0-rc.2",
     "colors": "^1.1.2",
     "devnull": "0.0.12",
     "eazy-logger": "^3.0.2",

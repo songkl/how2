@@ -13,9 +13,9 @@ It's like `man`, but you can query it in natural language:
 ## Install
 You can install it via npm:
 
-`npm install -g how2`
+`npm install -g how2@https://github.com/songkl/how2.git`
 
-if it gives you EACCES errors, [you need to fix npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions). Or you can just use `sudo npm install -g how2` if you don't care.
+if it gives you EACCES errors, [you need to fix npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions). Or you can just use `sudo npm install -g how2@https://github.com/songkl/how2.git` if you don't care.
 
 #### If you don't have npm
 Then [just install NodeJS](https://nodejs.org).
@@ -25,14 +25,14 @@ Install node: `sudo apt-get install nodejs npm`
 
 Make a symlink: `ln -s /usr/bin/nodejs /usr/bin/node`
 
-Then install how2: `npm install -g how2`
+Then install how2: `npm install -g how2@https://github.com/songkl/how2.git`
 
 #### On Mac
 Install node with brew: `brew install node`.
 
 If you don't have brew, [download nodejs from here](https://nodejs.org)
 
-Then install how2: `npm install -g how2`
+Then install how2: `npm install -g how2@https://github.com/songkl/how2.git`
 
 #### If you get "/usr/bin/env: node: No such file or directory"
 Your Linux distro (like Ubuntu) probably uses "nodejs" instead of "node".
