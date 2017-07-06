@@ -58,7 +58,7 @@ You can use `-l lang` to find answers for other languages:
 ![-l python](https://raw.githubusercontent.com/santinic/how2/master/img/python.png)
 
 ```
-use socks-proxy
+#use socks-proxy
 export socks_proxy="socks://127.0.0.1:1080"
 ```
 
