@@ -20,14 +20,14 @@ if it gives you EACCES errors, [you need to fix npm permissions](https://docs.np
 #### If you don't have npm
 Then [just install NodeJS](https://nodejs.org).
 
-#### On Ubuntu 
+#### On Ubuntu
 Install node: `sudo apt-get install nodejs npm`
 
 Make a symlink: `ln -s /usr/bin/nodejs /usr/bin/node`
 
 Then install how2: `npm install -g how2`
 
-#### On Mac 
+#### On Mac
 Install node with brew: `brew install node`.
 
 If you don't have brew, [download nodejs from here](https://nodejs.org)
@@ -35,7 +35,7 @@ If you don't have brew, [download nodejs from here](https://nodejs.org)
 Then install how2: `npm install -g how2`
 
 #### If you get "/usr/bin/env: node: No such file or directory"
-Your Linux distro (like Ubuntu) probably uses "nodejs" instead of "node". 
+Your Linux distro (like Ubuntu) probably uses "nodejs" instead of "node".
 
 Make a symlink and it should work:
 ```ln -s /usr/bin/nodejs /usr/bin/node```
@@ -56,6 +56,11 @@ After that you can press SPACE to go to the interactive mode, where you can choo
 You can use `-l lang` to find answers for other languages:
 
 ![-l python](https://raw.githubusercontent.com/santinic/how2/master/img/python.png)
+
+```
+use socks-proxy
+export socks_proxy="socks://127.0.0.1:1080"
+```
 
 ## Copy-Paste with mouse
 When you are in "interactive mode" (after you press SPACE), if you want to copy-paste more than one line you can use block-select:
